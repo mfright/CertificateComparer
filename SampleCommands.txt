@@ -1,0 +1,45 @@
+
+【整合性確認方法２】
+https://qiita.com/cs_sonar/items/c7398edbe02d5f4de01b
+サーバ証明書：openssl x509 -text -noout -in XXX.pem
+秘密鍵：openssl rsa -text -noout -in XXX.key
+上記２つのmodulesの値が一致していること。
+
+サーバ証明書：openssl x509 -issuer_hash -noout -in server.pem
+中間証明書：openssl x509 -subject_hash -noout -in server-ca.pem
+上記２つが同じ値であること。
+
+
+
+【整合性確認方法３】
+ルート-中間
+openssl x509 -issuer_hash -noout -in 中間
+openssl x509 -subject_hash -noout -in ルート
+
+中間-サーバ
+openssl x509 -subject_hash -noout -in 中間
+openssl x509 -issuer_hash -noout -in サーバ
+
+サーバ-鍵
+openssl x509 -noout -modulus -in サーバ
+openssl rsa -noout -modulus -in 鍵
+
+
+【PKCSの情報見る】
+openssl pkcs12 -in XXX.pfx -info
+
+PKCSから鍵を取り出す(ただし暗号化されてる)
+openssl pkcs12 -in XXX.pfx -out XXX.key -nocerts -aes256
+
+
+鍵を復号
+openssl rsa -in XXX.key -out XXX.nokey
+
+PKCSからサーバ証明書取り出し
+openssl pkcs12 -in XXX.pfx -clcerts -nokeys -out XXX.pem
+
+PKCSから中間証明書取り出し
+openssl pkcs12 -in XXX.pfx -cacerts -nokeys -out XXX.pem
+
+サーバ証明書+中間証明書+サーバ秘密鍵をPKCSにまとめる
+openssl pkcs12 -export -in SERVER.pem -inkey SERVER.key -certfile INTERMEDIATE.pem -out PKCS.pem

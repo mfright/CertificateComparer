@@ -1,0 +1,28 @@
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.exe.config
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.exe
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.pdb
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.csprojResolveAssemblyReference.cache
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.Properties.Resources.resources
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.csproj.GenerateResource.Cache
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.exe
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.pdb
+C:\Users\_\Downloads\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.mainForm.resources
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.exe.config
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.exe
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.pdb
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.exe
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.pdb
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.csprojResolveAssemblyReference.cache
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.mainForm.resources
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.Properties.Resources.resources
+C:\Users\_\Documents\Visual Studio 2013\Projects\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.csproj.GenerateResource.Cache
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.exe.config
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.exe
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\bin\Debug\certificateComparer1.pdb
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.csprojAssemblyReference.cache
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.mainForm.resources
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.Properties.Resources.resources
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.csproj.GenerateResource.cache
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.csproj.CoreCompileInputs.cache
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.exe
+C:\Users\_\source\repos\certificateComparer1\certificateComparer1\obj\Debug\certificateComparer1.pdb
